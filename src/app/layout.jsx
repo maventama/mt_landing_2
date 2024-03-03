@@ -7,7 +7,7 @@ import maventamaLogo from '@/images/maventama-logo.png'
 export const metadata = {
   title: {
     template: '%s - MavenTama',
-    default: 'MavenTama - We have great product & services, want to try?',
+    default: 'MavenTama - We have great products & services, want to try?',
   },
   description:
     'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
