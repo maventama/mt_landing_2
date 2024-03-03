@@ -48,12 +48,12 @@ function MobileNavIcon({ open }) {
 function MobileNavigation() {
   return (
     <Popover>
-      <Popover.Button
+      {/* <Popover.Button
         className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none"
         aria-label="Toggle Navigation"
       >
         {({ open }) => <MobileNavIcon open={open} />}
-      </Popover.Button>
+      </Popover.Button> */}
       <Transition.Root>
         <Transition.Child
           as={Fragment}
