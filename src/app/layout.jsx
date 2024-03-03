@@ -10,7 +10,7 @@ export const metadata = {
     default: 'MavenTama - We have great products & services, want to try?',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'We have great products & services, want to try? With us, you can transcend technological limits and enter a new world full of opportunities.',
 }
 
 const inter = Inter({
