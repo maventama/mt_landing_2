@@ -27,6 +27,7 @@ const features = [
     description:
       'There are a lot of great landing page builders out there, but we think ours is right for you. We’re biased, but we’re pretty sure you’ll agree.',
     image: screenshotProfitLoss,
+    url: 'https://landing.maventama.com',
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -46,6 +47,7 @@ const features = [
     description:
       'Feature: Point of Sale, LPKK, Operational, Absence, Inventory, and Reporting. Our team experienced in franchise and retail business.',
     image: screenshotInventory,
+    url: '',
     icon: function InventoryIcon() {
       return (
         <>
@@ -64,6 +66,7 @@ const features = [
     description:
       'Feature: WhatsApp API, WhatsApp Business, WhatsApp Chatbot, and WhatsApp Integration. Make your business more efficient and effective.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -82,6 +85,7 @@ const features = [
     description:
       'Feature: Inventory, Stock, Stock Opname, Purchase, PO, LPB, Reporting, etc. Safety stock, reorder point, and many more.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -100,6 +104,7 @@ const features = [
     description:
       'A lot of templates, easy to use, and very stylish. Very cool. Fast in moment. You can use it anywhere without queuing.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -118,6 +123,7 @@ const features = [
     description:
       'Audit and Assesment scoring for your business. Get real-time data and reports. Make your business more efficient and effective.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -136,6 +142,7 @@ const features = [
     description:
       'Feature: HRIS, Payroll, Absence, Operational, and Reporting. Productivity and efficiency for your business.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -154,6 +161,7 @@ const features = [
     description:
       'Feature: Property, Tenant, Rent, Operational, and Reporting. Make your property more efficient and effective.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -172,6 +180,7 @@ const features = [
     description:
       'Feature: LMS, E-Learning, Course, Student, Teacher, and Reporting. Make your learning system more efficient and effective.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -190,6 +199,7 @@ const features = [
     description:
       'Feature: Blast WhatsApp Image Ticket, QR Code, and Reporting. Make your event more efficient and effective.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -210,6 +220,7 @@ let customFeature = {
     description:
       'Let make it happen. We can help you to build your custom request. Price is negotiable.',
     image: screenshotContacts,
+    url: '',
     icon: function ContactsIcon() {
       return (
         <>
@@ -306,10 +317,9 @@ function FeaturesDesktop() {
                 feature={{
                   ...feature,
                   name: (
-                    <Tab className="ui-not-focus-visible:outline-none">
-                      <span className="absolute inset-0" />
-                      {feature.name}
-                    </Tab>
+                      <a target='_blank' href={feature.url ? feature.url : '#'}>
+                        {feature.name} {feature.url ? '↗️' : ''}
+                      </a>
                   ),
                 }}
                 isActive="1"
