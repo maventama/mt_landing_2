@@ -232,15 +232,16 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-slate-300' : 'text-slate-600',
+          isActive ? 'text-grey-300' : 'text-grey-600',
         )}
       >
-        {feature.name}
+        
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-500">
-        {feature.summary}
+      <p className="mt-2 font-display text-xl text-grey-500">
+      {feature.name}
+        {/* {feature.summary} */}
       </p>
-      <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
+      <p className="mt-4 text-sm text-grey-300">{feature.description}</p>
     </div>
   )
 }
@@ -264,12 +265,12 @@ function FeaturesMobile() {
       <h3
         className={clsx(
           'mt-6 text-3xl font-medium',
-          'text-slate-300',
+          'text-grey-300',
         )}
       >
         {customFeature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-300">
+      <p className="mt-2 font-display text-xl text-white">
         {customFeature.summary}
       </p>
               <a href='mailto:maventama@gmail.com' style={
@@ -338,7 +339,7 @@ function FeaturesDesktop() {
               >
                   {customFeature.name}
               </h3>
-              <p className="mt-2 font-display text-xl text-slate-300">
+              <p className="mt-2 font-display text-xl text-white">
                   {customFeature.summary}
               </p>
               <a href='mailto:maventama@gmail.com' style={
@@ -383,7 +384,7 @@ function FeaturesDesktop() {
                 </Tab.Panel>
               ))}
             </div>
-            <div className="pointer-events-none absolute inset-0 rounded-4xl ring-1 ring-inset ring-slate-900/10" />
+            {/* <div className="pointer-events-none absolute inset-0 rounded-4xl ring-1 ring-inset ring-slate-900/10" /> */}
           </Tab.Panels>
         </>
       )}

@@ -39,7 +39,7 @@ export function Footer() {
               </svg>
             </Link>
           </div>
-          <p className="mt-6 text-sm text-slate-500 sm:mt-0">
+          <p className="mt-6 text-sm text-grey-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} MavenTama. All rights
             reserved.
           </p>

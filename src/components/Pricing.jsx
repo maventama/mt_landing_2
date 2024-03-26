@@ -59,7 +59,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       <p
         className={clsx(
           'mt-2 text-base',
-          featured ? 'text-white' : 'text-slate-400',
+          featured ? 'text-white' : 'text-grey-400',
         )}
       >
         {description}
@@ -71,12 +71,12 @@ function Plan({ name, price, description, href, features, featured = false }) {
         role="list"
         className={clsx(
           'order-last mt-10 flex flex-col gap-y-3 text-sm',
-          featured ? 'text-white' : 'text-slate-200',
+          featured ? 'text-white' : 'text-grey-200',
         )}
       >
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
+            <CheckIcon className={featured ? 'text-white' : 'text-grey-400'} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
@@ -110,7 +110,7 @@ export function Pricing() {
             </span>{' '}
             for everyone.
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          <p className="mt-4 text-lg text-grey-400">
             It doesn’t matter what size your business is, our software won’t
             work well for you.
           </p>

@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={clsx(
-        'h-full scroll-smooth bg-black antialiased',
+        'h-full scroll-smooth bg-white antialiased',
         inter.variable,
         lexend.variable,
       )}
