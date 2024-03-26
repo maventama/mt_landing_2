@@ -60,7 +60,7 @@ const features = [
     },
   },
   {
-    name: 'MT WhatsApp API',
+    name: 'MT WA API API',
     summary:
       'Integrate your business to make your business more efficient.',
     description:
