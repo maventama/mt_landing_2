@@ -249,7 +249,9 @@ function Feature({ feature, isActive, className, ...props }) {
         
       </h3>
       <p className="mt-2 font-display text-xl text-grey-500">
-      {feature.name}
+      <a target='_blank' href={feature.url ? feature.url : '#'}>
+        {feature.name} {feature.url ? '↗️' : ''}
+        </a>
         {/* {feature.summary} */}
       </p>
       <p className="mt-4 text-sm text-grey-300">{feature.description}</p>
