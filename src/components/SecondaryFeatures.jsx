@@ -66,7 +66,7 @@ const features = [
     description:
       'Feature: WhatsApp API, WhatsApp Business, WhatsApp Chatbot, and WhatsApp Integration. Make your business more efficient and effective.',
     image: screenshotContacts,
-    url: '',
+    url: 'https://wa.maventama.com',
     icon: function ContactsIcon() {
       return (
         <>
