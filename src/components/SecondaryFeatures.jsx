@@ -60,7 +60,7 @@ const features = [
     },
   },
   {
-    name: 'MT WA API API',
+    name: 'MT WA API',
     summary:
       'Integrate your business to make your business more efficient.',
     description:
