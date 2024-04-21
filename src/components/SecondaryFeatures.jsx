@@ -104,6 +104,7 @@ const features = [
     description:
       'A lot of templates, easy to use, and very stylish. Very cool. Fast in moment. You can use it anywhere without queuing.',
     image: screenshotContacts,
+    url: 'https://photopal.id',
     url: '',
     icon: function ContactsIcon() {
       return (
