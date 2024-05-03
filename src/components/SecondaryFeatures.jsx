@@ -59,25 +59,25 @@ const features = [
       )
     },
   },
-  {
-    name: 'MT WA API',
-    summary:
-      'Integrate your business to make your business more efficient.',
-    description:
-      'Feature: WhatsApp API, WhatsApp Business, WhatsApp Chatbot, and WhatsApp Integration. Make your business more efficient and effective.',
-    image: screenshotContacts,
-    url: 'https://wa.maventama.com',
-    icon: function ContactsIcon() {
-      return (
-        <>
-            <div>
-                <Image 
-                src={maventamaApiWhatsapp} width='100' height='100' />
-            </div>
-        </>
-      )
-    },
-  },
+//   {
+//     name: 'MT WA API',
+//     summary:
+//       'Integrate your business to make your business more efficient.',
+//     description:
+//       'Feature: WhatsApp API, WhatsApp Business, WhatsApp Chatbot, and WhatsApp Integration. Make your business more efficient and effective.',
+//     image: screenshotContacts,
+//     url: 'https://wa.maventama.com',
+//     icon: function ContactsIcon() {
+//       return (
+//         <>
+//             <div>
+//                 <Image 
+//                 src={maventamaApiWhatsapp} width='100' height='100' />
+//             </div>
+//         </>
+//       )
+//     },
+//   },
   {
     name: 'MT Inventory',
     summary:
