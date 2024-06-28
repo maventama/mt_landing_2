@@ -98,7 +98,7 @@ const features = [
     },
   },
   {
-    name: 'MT PhotoBooth',
+    name: 'PhotoPal',
     summary:
       'A online Photobox anywhere without queuing. Very stylish. Very cool.',
     description:
