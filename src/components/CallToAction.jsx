@@ -29,9 +29,9 @@ export function CallToAction() {
           <Button href="mailto:maventama@gmail.com" className="mt-10 mr-5">
             Email
           </Button>
-          <Button href="https://wa.me/6285158513669" color="white" className="mt-10">
+          {/* <Button href="https://wa.me/6285158513669" color="white" className="mt-10">
             WhatsApp
-          </Button>
+          </Button> */}
         </div>
       </Container>
     </section>

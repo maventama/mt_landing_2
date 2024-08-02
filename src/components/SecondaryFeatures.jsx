@@ -294,14 +294,14 @@ function FeaturesMobile() {
               } class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 mr-2">
                 Email
               </a>
-              <a href='https://wa.me/6285158513669' style={
+              {/* <a href='https://wa.me/6285158513669' style={
                 {
                     marginTop: '40px',
                     display: 'inline-block',
                 }
               } class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                 WhatsApp
-              </a>
+              </a> */}
     </div>
     </div>
   )
@@ -362,14 +362,14 @@ function FeaturesDesktop() {
               } class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 mr-2">
                 Email
               </a>
-              <a href='https://wa.me/6285158513669' style={
+              {/* <a href='https://wa.me/6285158513669' style={
                 {
                     marginTop: '40px',
                     display: 'inline-block',
                 }
               } class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                 WhatsApp
-              </a>
+              </a> */}
               </div>
           </Tab.List>
           <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl  px-14 py-16 xl:px-16">

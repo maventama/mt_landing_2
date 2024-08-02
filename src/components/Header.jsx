@@ -112,11 +112,11 @@ export function Header() {
                 Email
               </NavLink>
             </div>
-            <Button href="https://wa.me/6285158513669" color="white">
+            {/* <Button href="https://wa.me/6285158513669" color="white">
               <span>
                 WhatsApp
               </span>
-            </Button>
+            </Button> */}
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
